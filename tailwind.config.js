@@ -11,5 +11,32 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require('daisyui'), require('tailwind-scrollbar')],
+
+  daisyui: {
+    // themes: ["dark, synthwave"]
+    themes: [
+      {
+        slaystation: {
+          primary: '#3d2267',
+
+          secondary: '#BF95F9',
+
+          accent: '#eb1e24',
+
+          neutral: '#FFFFFF',
+
+          'base-100': '#000000',
+
+          info: '#8BE8FD',
+
+          success: '#52FA7C',
+
+          warning: '#F1FA89',
+
+          error: '#FF5757',
+        },
+      },
+    ],
+  },
 }
