@@ -5,8 +5,8 @@
     <!-- <div class="m-auto"><UnderConstruction /></div> -->
     <div class="w-screen"><NavBar /></div>
     <div class="mx-auto"><SlaystationLogo /></div>
-    <div class="mx-auto w-screen px-96">
-      <p class="font-mono text-4xl text-justify w-auto pb-20">
+    <div class="mx-auto w-screen px-16">
+      <p class="font-mono text-4xl text-left w-auto pb-20">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere
         tempore itaque sunt aut voluptatem modi aliquid ea. Praesentium vero
         enim quae libero voluptatibus laboriosam odio consectetur et eum sed!
