@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar bg-primary">
+  <div class="navbar bg-primary rounded">
     <div class="flex-1 flex-wrap">
       <NuxtLink class="btn btn-ghost normal-case text-xl" to="/">Home</NuxtLink>
       <NuxtLink class="btn btn-ghost normal-case text-xl" to="/about"

@@ -3,7 +3,7 @@
     <!-- <div class="m-auto"><UnderConstruction /></div> -->
     <div class="w-1/2"><SlaystationLogo class="mx-auto" /></div>
     <div class="w-1/2 px-16">
-      <p class="font-mono text-3xl text-justify w-auto pb-20">
+      <p class="font-mono text-3xl text-justify w-auto">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere
         tempore itaque sunt aut voluptatem modi aliquid ea. Praesentium vero
         enim quae libero voluptatibus laboriosam odio consectetur et eum sed!
