@@ -1,4 +1,7 @@
 {
+  "vueCompilerOptions": {
+    "experimentalShamefullySupportOptionsApi": true
+  },
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
