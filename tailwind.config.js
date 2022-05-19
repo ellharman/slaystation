@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontSize: {
         landingFont: '1.5rem',
+        navFont: '1rem',
       },
     },
   },
