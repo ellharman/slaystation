@@ -9,7 +9,11 @@ module.exports = {
     fontFamily: {
       mono: ['VT323', 'Consolas, Courier, Courier New'],
     },
-    extend: {},
+    extend: {
+      fontSize: {
+        landingFont: '1.5rem',
+      },
+    },
   },
   plugins: [require('daisyui'), require('tailwind-scrollbar')],
 
