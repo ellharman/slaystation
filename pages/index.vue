@@ -25,13 +25,12 @@
         </p>
       </div>
     </div>
-    <div v-if="!isMobile" class="md:w-1/2 flex-col carousel">
-      <div class="carousel-item m-auto">
-        <nuxt-img
+    <div v-if="!isMobile" class="md:w-1/2 flex-col self-center">
+      <div class="h-full my-auto lg:px-40 lg:py-6">
+        <img
           src="/landing_poster.png"
-          sizes="sm:100vw md:50vw lg:30vw"
-          alt="Tailwind CSS Carousel component"
-          class="rounded"
+          alt="Slaystation poster"
+          class="object-contain rounded"
         />
       </div>
     </div>
@@ -48,7 +47,7 @@ export default {
     }
   },
   mounted() {
-    this.isMobile = window.innerWidth < 900
+    this.isMobile = window.innerWidth < 768
   },
 }
 </script>
